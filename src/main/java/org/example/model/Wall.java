@@ -13,6 +13,6 @@ public class Wall {
     }
 
     public void create() {
-        System.out.println("Ceiling has been built.");
+        System.out.println("Wall has been built.");
     }
 }
