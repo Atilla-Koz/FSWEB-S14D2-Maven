@@ -20,7 +20,7 @@ public class Ceiling {
         return color;
     }
 
-    public void createCeiling() {
+    public void create() {
         System.out.println("Ceiling has been built.");
     }
 
