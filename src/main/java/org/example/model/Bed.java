@@ -6,19 +6,19 @@ public class Bed {
     private int pillows;
     private int height;
     private int sheets;
-    private int quilt;
+    private int quilts;
 
     public Bed(String style, int pillows, int height, int sheets, int quilt) {
         this.style = style;
         this.pillows = pillows;
         this.height = height;
         this.sheets = sheets;
-        this.quilt = quilt;
+        this.quilts = quilts;
     }
 
 
     public void make() {
-        System.out.println("The bed is being made");
+        System.out.println("The bed is being made.");
     }
 
 
@@ -38,7 +38,7 @@ public class Bed {
     }
 
     public int getQuilts() {
-        return quilt;
+        return quilts;
     }
 
 }
