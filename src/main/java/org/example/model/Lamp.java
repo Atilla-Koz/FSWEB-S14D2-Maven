@@ -1,5 +1,7 @@
 package org.example.model;
 
+import org.example.model.enums.LampType;
+
 public class Lamp {
 
     private LampType style;
