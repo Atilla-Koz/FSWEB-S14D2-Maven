@@ -12,7 +12,7 @@ public class Wall {
         return direction;
     }
 
-    public void cteateWall() {
+    public void create() {
         System.out.println("Ceiling has been built.");
     }
 }
